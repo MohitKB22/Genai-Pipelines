@@ -1,0 +1,25 @@
+[tool]
+name = "rag-from-scratch-openai"
+version = "0.1.0"
+description = "A beginner-friendly implementation of Retrieval-Augmented Generation (RAG) using LangChain, FAISS, and HuggingFace embeddings."
+authors = ["Your Name <youremail@example.com>"]
+license = { file = "LICENSE" }
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+langchain = "^0.0.1"
+faiss-cpu = "^1.7.0"
+sentence-transformers = "^2.2.0"
+openai = "^0.27.0"
+python-dotenv = "^0.20.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+jupyter = "^1.0.0"
+
+[tool.poetry.scripts]
+rag = "src.main:main"
