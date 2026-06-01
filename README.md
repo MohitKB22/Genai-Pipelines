@@ -1,4 +1,4 @@
-# GenAI Beginner Projects
+# GenAI Pipeline
 
 A hands-on learning path for developers new to Generative AI. Five self-contained projects that take you from basic RAG to agentic systems with real-time data — each building on the previous.
 
